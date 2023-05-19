@@ -13,18 +13,18 @@ describe('getAllTasks', () => {
     })
 })
 
-// describe('getOneTask', () => {
-//     test('should send 404 if it does not exist', () => {
+describe('getOneTask', () => {
+    test('should send 404 if it does not exist', () => {
 
-//         // Arrange
-//         const reqMock = getMockReq({ params: { id: "22" } as any })
-//         const { res } = getMockRes()
+        // Arrange
+        const reqMock = getMockReq({ params: { id: "22" } as any })
+        const { res } = getMockRes()
         
-//         // Act
-//         getAllTasks(reqMock, res)
+        // Act
+        getAllTasks(reqMock, res)
         
-//         //Assert
+        //Assert
         
-//         expect(res.statusCode).toBe(404)
-//     })
-// })
+        expect(res.statusCode).toBe(404)
+    })
+})
