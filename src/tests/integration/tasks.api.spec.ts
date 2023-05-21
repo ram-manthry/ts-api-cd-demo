@@ -8,7 +8,7 @@ describe('Tasks API', () => {
     const expected = [
       {
         id: 1,
-        name: 'Mission 01',
+        name: 'Mission 0',
         description: 'Chatbot',
         isCompleted: false,
       },
