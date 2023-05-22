@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: m4pipeline # TODO: update Google Cloud project id
-  SERVICE: M4Pipeline # TODO: update Cloud Run service name
+  SERVICE: m4Pipeline # TODO: update Cloud Run service name
   REGION: australia-southeast2 # TODO: update Cloud Run service region
 
 jobs:
