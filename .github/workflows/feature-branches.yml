@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build and Test and Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - feature/*
 
 jobs:
-  build_test:
+  build_test_deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
