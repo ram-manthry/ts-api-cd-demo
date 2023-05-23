@@ -52,7 +52,7 @@ describe('getOneTask', () => {
     const input = 2
     const expected = {
       id: 2,
-      name: 'Mission 01',
+      name: 'Mission 02',
       description: 'NLP',
       isCompleted: false,
     }
