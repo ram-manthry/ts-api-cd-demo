@@ -4,25 +4,25 @@ import {
   getOneTask,
 } from '../../services/taskService'
 
-// describe('getAllTasks', () => {
-//   test('should return a default Task', () => {
-//     // Arrange
-//     const expected = [
-//       {
-//         id: 1,
-//         name: 'Mission 01',
-//         description: 'Chatbot',
-//         isCompleted: false,
-//       },
-//     ]
+describe('getAllTasks', () => {
+  test('should return a default Task', () => {
+    // Arrange
+    const expected = [
+      {
+        id: 1,
+        name: 'Mission 01',
+        description: 'Chatbot',
+        isCompleted: false,
+      },
+    ]
 
-//     // Act
-//     const actual = getAllTasks()
+    // Act
+    const actual = getAllTasks()
 
-//     //Assert
-//     expect(actual).toEqual(expected)
-//   })
-// })
+    //Assert
+    expect(actual).toEqual(expected)
+  })
+})
 
 describe('createTask', () => {
   test('should create a task', () => {
