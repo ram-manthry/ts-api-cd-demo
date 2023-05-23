@@ -22,25 +22,25 @@ describe('getAllTasks', () => {
     })
 })
 
-// describe('getOneTask', () => {
-//     test('when id 1 returns default task', () => {
-//         // Arrange
-//         const req = createRequest()
-//         const res = createResponse()
-//         const expected = {
-//                 id: 1,
-//                 name: 'Mission 01',
-//                 description: 'Chatbot',
-//                 isCompleted: false,
-//             },
+describe('getOneTask', () => {
+    test('when id 1 returns default task', () => {
+        // Arrange
+        const req = createRequest()
+        const res = createResponse()
+        const expected = {
+                id: 1,
+                name: 'Mission 01',
+                description: 'Chatbot',
+                isCompleted: false,
+            },
 
-//         req.params.id = '1'
+        req.params.id = '1'
 
-//         // Act
-//         getOneTask(req, res)
+        // Act
+        getOneTask(req, res)
 
-//         //Assert
-//         expect(res.statusCode).toBe(200)
-//         expect(res.json()._getData()).toEqual(expected)
-//     })
-// })
+        //Assert
+        expect(res.statusCode).toBe(200)
+        expect(res.json()._getData()).toEqual(expected)
+    })
+})
