@@ -10,7 +10,7 @@ describe('getAllTasks', () => {
     const expected = [
       {
         id: 1,
-        name: 'Mission ',
+        name: 'Mission 1',
         description: 'Chatbot',
         isCompleted: false,
       },
@@ -52,7 +52,7 @@ describe('getOneTask', () => {
     const input = 2
     const expected = {
       id: 2,
-      name: 'Mission 02',
+      name: 'Mission 01',
       description: 'NLP',
       isCompleted: false,
     }
