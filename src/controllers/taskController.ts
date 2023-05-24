@@ -5,6 +5,15 @@ export const getAllTasks = (req: Request, res: Response) => {
   const tasks = taskService.getAllTasks()
   res.send(tasks)
 }
+// [6:20 pm] Ram Manthry @jest-mock/express
+// npm install --save-dev @jest-mock/express
+// npm add --dev @jest-mock@express
+
+
+
+
+
+
 
 export const createOneTask = (req: Request, res: Response) => {
   const name = req.body.name

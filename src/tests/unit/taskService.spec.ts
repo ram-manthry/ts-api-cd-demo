@@ -10,10 +10,10 @@ describe('getAllTasks', () => {
     const expected = [
       {
         id: 1,
-        name: 'Mission 01',
+        name: 'Mission 01',  
         description: 'Chatbot',
         isCompleted: false,
-      },
+      }, 
     ]
 
     // Act
